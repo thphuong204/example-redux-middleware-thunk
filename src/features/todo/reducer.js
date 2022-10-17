@@ -32,7 +32,7 @@ const todoReducer = (state=initialState,action) => {
                 }),
         };
         case SET_FILTER:
-            return {...state, filters:payload};
+            return {...state, filter:payload};
         default:
             return state;
     }
